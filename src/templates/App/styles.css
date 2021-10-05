@@ -1,0 +1,8 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 400vh;
+  background-repeat: no-repeat;
+  background-position: top/contain;
+  padding-left: 10.9rem;
+}

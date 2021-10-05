@@ -1,0 +1,104 @@
+.WrapperHome {
+  display: grid;
+  width: 71.25rem;
+  height: 600px;
+  grid-template-columns: 31% 59% 10%;
+  grid-template-areas: 'left  center right';
+}
+.WrapperHome .leftWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-top: 3rem;
+}
+.WrapperHome .leftWrapper h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  color: #fdc921;
+  margin-bottom: 1rem;
+}
+.WrapperHome .leftWrapper img {
+  width: 18.625rem;
+  height: 8rem;
+  margin-bottom: 1.75rem;
+}
+.WrapperHome .leftWrapper p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #454545;
+  margin-bottom: 1rem;
+}
+.WrapperHome .leftWrapper .coloredTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2.4375rem;
+  margin-left: 7.1875rem;
+  background-image: linear-gradient(#ff95d9, #feae81, #fdc921);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.WrapperHome .leftWrapper a {
+  width: 10.75rem;
+  height: 3.125rem;
+  border-radius: 2.8125rem;
+  border: 0.2px solid rgba(1, 1, 1, 0.2);
+  box-shadow: 1px 3px 7px rgba(1, 1, 1, 0.2);
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WrapperHome .leftWrapper a:hover{
+  filter: brightness(1.2);
+}
+.WrapperHome .leftWrapper a h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #454545;
+  padding-top: 10px;
+}
+.WrapperHome .centerWrapper {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+}
+.WrapperHome .centerWrapper img {
+  width: 40.75rem;
+  height: 40.75rem;
+  position: relative;
+  top: -70px;
+}
+.WrapperHome .rightWrapper {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 6rem;
+  height: 100%;
+}
+.buttonHelp {
+  width: 4.43rem;
+  height: 4.43rem;
+  background-color: #fff;
+  border-radius: 2.21rem;
+  border: 0.2px solid rgba(1, 1, 1, 0.2);
+  box-shadow: 1px 3px 7px rgba(1, 1, 1, 0.2);
+  cursor: pointer;
+}
+.buttonHelp:hover {
+  filter: brightness(1.2);
+}
+.buttonHelp div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonHelp img {
+  width: 2.1875rem;
+  height: 2rem;
+}
