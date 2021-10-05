@@ -6,7 +6,7 @@ export function Header() {
     <header>
       <nav className="wrapperNav">
         <a href="#">GoFund NFT</a>
-        <a href="#opa">Quem somos</a>
+        <a href="#">Quem somos</a>
         <button className="buttonWrapper">
           <h1>Logar</h1>
         </button>

@@ -24,7 +24,7 @@ export function Home() {
         <section className="rightWrapper">
           <button className="buttonHelp">
             <div>
-              <img src="./message.png" alt="íconde de mensagem" />
+              <img src="./message.png" alt="ícone de mensagem" />
             </div>
           </button>
         </section>

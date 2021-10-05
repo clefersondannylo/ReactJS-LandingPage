@@ -1,12 +1,21 @@
+main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
 .WrapperHome {
-  display: grid;
-  width: 71.25rem;
-  height: 600px;
-  grid-template-columns: 31% 59% 10%;
-  grid-template-areas: 'left  center right';
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70.75rem;
+  height: 37.5rem;
 }
 .WrapperHome .leftWrapper {
   display: flex;
+  width: 27rem;
   flex-direction: column;
   height: 100%;
   padding-top: 3rem;
@@ -51,8 +60,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  left: -2rem;
 }
-.WrapperHome .leftWrapper a:hover{
+.WrapperHome .leftWrapper a:hover {
   filter: brightness(1.2);
 }
 .WrapperHome .leftWrapper a h1 {
@@ -66,20 +77,23 @@
   flex-direction: column;
   display: flex;
   height: 100%;
+  width: 56%;
 }
 .WrapperHome .centerWrapper img {
   width: 40.75rem;
   height: 40.75rem;
   position: relative;
   top: -70px;
+  right: 87px;
 }
 .WrapperHome .rightWrapper {
   flex-direction: column;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-bottom: 6rem;
+  padding-bottom: 3.1rem;
   height: 100%;
+  width: 6%;
 }
 .buttonHelp {
   width: 4.43rem;
