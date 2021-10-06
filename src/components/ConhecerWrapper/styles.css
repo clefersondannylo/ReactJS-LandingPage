@@ -1,0 +1,69 @@
+.WrapperConhecer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 28.8125rem;
+  justify-content: flex-start;
+  align-items: center;
+  background-repeat: round;
+  background-position: top/contain;
+}
+.contentWrapperConhecer {
+  width: 100%;
+  min-height: 13.1875rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.375rem;
+}
+.textWrapperConhecer {
+  margin-left: 5.3125rem;
+  display: flex;
+  flex-direction: column;
+}
+.textWrapperConhecer h1 {
+  margin-bottom: 2.5625rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: linear-gradient(#ff95d9, #feae81, #fdc921);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.textWrapperConhecer p {
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.textWrapperConhecer p span {
+  font-weight: 400;
+}
+.imageWrapperConhecer {
+  margin-right: 2.375rem;
+  margin-left: 2.25rem;
+}
+.WrapperConhecer button {
+  margin-top: 4.375rem;
+  margin-bottom: 3.6875rem;
+}
+
+.buttonWrapperConhecer {
+  width: 16.4375rem;
+  height: 3.125rem;
+  background-color: #fff;
+  margin-left: 2.56rem;
+  border-radius: 2.81rem;
+  border: 0.2px solid rgba(1, 1, 1, 0.2);
+}
+.buttonWrapperConhecer h1 {
+  color: #454545;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+.buttonWrapperConhecer:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+  color: #fff;
+}
