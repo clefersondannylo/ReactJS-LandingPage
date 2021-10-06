@@ -2,12 +2,14 @@ import React from 'react';
 import './styles.css';
 import { Header } from '../../components/Header';
 import { Home } from '../../components/Home';
+import { BoxWrapper } from '../../components/BoxWrapper';
 export function App() {
   return (
     <div style={{ backgroundImage: `url(./background.svg)` }} className="App">
       <Header />
       <Home />
-      <div className="Wrapper">
+      <BoxWrapper />
+      {/* <div className="Wrapper">
         <div className="contentWrapper">
           <div className="boxWrapper">
             <div>
@@ -109,7 +111,7 @@ export function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
