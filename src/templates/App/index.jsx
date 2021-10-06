@@ -3,11 +3,13 @@ import './styles.css';
 import { Header } from '../../components/Header';
 import { Home } from '../../components/Home';
 import { BoxWrapper } from '../../components/BoxWrapper';
+import { Message } from '../../components/Message';
 export function App() {
   return (
     <div style={{ backgroundImage: `url(./background.svg)` }} className="App">
       <Header />
       <Home />
+      <Message />
       <BoxWrapper />
       {/* <div className="Wrapper">
         <div className="contentWrapper">

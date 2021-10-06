@@ -5,6 +5,7 @@ main {
   box-sizing: border-box;
   justify-content: flex-end;
   align-items: flex-start;
+  margin-bottom: 7.1875rem;
 }
 .WrapperHome {
   display: flex;
@@ -78,6 +79,7 @@ main {
   display: flex;
   height: 100%;
   width: 56%;
+ 
 }
 .WrapperHome .centerWrapper img {
   width: 40.75rem;
