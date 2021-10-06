@@ -1,61 +1,21 @@
 .App {
   display: flex;
   flex-direction: column;
-  min-height: 400vh;
+  /* min-height: 400vh; */
+  min-height: 218.1875rem;
   background-repeat: no-repeat;
   background-position: top/contain;
   padding-left: 10.9rem;
   width: 100%;
   padding-right: 3.06rem;
 }
-/* }
-.Wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 1003px;
-  height: 532px;
-  justify-content: space-around;
-}
-.contentWrapper {
+.AppContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  min-height: 127.625rem;
+  /* padding-left: 10.9rem; */
+  width: 62.6875rem;
+  /* padding-right: 3.06rem; */
+  box-sizing: border-box;
 }
-.boxWrapper {
-  width: 465px;
-  height: 8.5625rem;
-  border: 0.2px solid rgba(1, 1, 1, 0.2);
-  box-shadow: 1px 3px 7px rgba(1, 1, 1, 0.4);
-  border-radius: 0.625rem;
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-.boxWrapper div:nth-child(1) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem;
-}
-.boxWrapper div:nth-child(2) {
-  width: 337px;
-}
-.boxWrapper div h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 10px;
-}
-.boxWrapper div p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  color: #000;
-} */
